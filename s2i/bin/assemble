@@ -31,4 +31,4 @@ echo "---> Start package..."
 ./node_modules/.bin/webpack -d
 
 echo "---> Copy src to nginx default dir..."
-sudo cp -Rf built src login.html index.html /usr/share/nginx/html/
+cp -Rf built src login.html index.html /usr/share/nginx/html/
